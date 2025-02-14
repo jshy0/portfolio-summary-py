@@ -13,8 +13,8 @@ This Python script fetches the contents of a given website, extracts relevant te
 - OpenAI API key (set as `OPENAI_API_KEY` in environment variables)  
 
 ## Usage  
+Replace https://joshjharris.com with any URL to summarize its content.
+
 Run the script with:  
 ```python  
 python script.py
-
-Replace https://joshjharris.com with any URL to summarize its content.
