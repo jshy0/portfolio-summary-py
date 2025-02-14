@@ -24,8 +24,6 @@ class Website:
         self.text = soup.body.get_text(separator="\n", strip=True)
 
 
-josh = Website("https://joshjharris.com")
-
 system_prompt = "You are an assistant that analyses the contents of a portfolio website and provides a short summary, "\
                 "ignoring navigation related text."
 
